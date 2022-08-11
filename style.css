@@ -594,8 +594,8 @@ header .s_1 {
 }
 
 #s_img #detal_img {
-	margin-left: 19px;
-	width: 100%;
+    margin-left: 19px;
+    width: 600px;
 }
 
 #catalog_with_prices button {
@@ -824,9 +824,9 @@ input::-webkit-inner-spin-button {
 	display: flex;
 }
 
-#s_imgs_features {
+/* #s_imgs_features {
 	width: 100%;
-}
+} */
 
 #s_form {
 	margin-left: 65px;
@@ -1126,6 +1126,7 @@ footer .my_addres {
 	}
 
 	#s_img #detal_img {
+		/* margin-left: 19px; */
 		width: 90%;
 	}
 
