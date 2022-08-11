@@ -4,28 +4,30 @@
 }
 
 
-html { overflow-x: hidden;}
+html {
+	overflow-x: hidden;
+}
 
 html,
 body {
-margin: 0;
+	margin: 0;
 
 }
 
 header .s_1 {
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
 }
 
 #menu {
 	background: #11175E;
-    display: flex;
-    gap: 40px;
-    justify-content: flex-start;
-    padding-left: 45px;
-    flex-wrap: wrap;
+	display: flex;
+	gap: 40px;
+	justify-content: flex-start;
+	padding-left: 45px;
+	flex-wrap: wrap;
 	row-gap: 0px;
 }
 
@@ -51,21 +53,22 @@ header .s_1 {
 
 #button_header {
 	color: black;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 15px;
-    /* color: rgba(0, 0, 0, 0.9); */
-    text-decoration-line: none;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 15px;
+	/* color: rgba(0, 0, 0, 0.9); */
+	text-decoration-line: none;
 	border-bottom: 2px solid #000000;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 .swiper {
 	width: 100%;
 	height: 292px;
-  }
+}
 
 .swiper-slide {
 	width: 100%;
@@ -78,10 +81,13 @@ header .s_1 {
 	height: 200px;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
 	top: 10px;
-    left: 0;
-    width: 100%;
+	left: 0;
+	width: 100%;
 	position: relative;
 	margin-bottom: 20px;
 }
@@ -102,15 +108,18 @@ header .s_1 {
 
 #slide_1 {
 	background-image: url("imgs/img_1.png");
-	moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%;
+	moz-background-size: 100%;
+	/* Firefox 3.6+ */
+	-webkit-background-size: 100%;
+	/* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+	/* Opera 9.6+ */
+	background-size: 100%;
 	color: white;
 	padding-left: 42px;
 }
 
-#slide_1 h1{
+#slide_1 h1 {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -135,12 +144,12 @@ header .s_1 {
 }
 
 #slide_1 button {
-    border: 2px solid #FFFFFF;
-    background: none;
-    width: 280px;
-    display: block;
-    color: #FFFFFF;
-    padding: 5px;
+	border: 2px solid #FFFFFF;
+	background: none;
+	width: 280px;
+	display: block;
+	color: #FFFFFF;
+	padding: 5px;
 	transition: transform 0.3s;
 }
 
@@ -150,14 +159,17 @@ header .s_1 {
 
 #slide_2 {
 	background-image: url(imgs/Фон2.png);
-	moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%;
+	moz-background-size: 100%;
+	/* Firefox 3.6+ */
+	-webkit-background-size: 100%;
+	/* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+	/* Opera 9.6+ */
+	background-size: 100%;
 	padding-left: 42px;
 }
 
-#slide_2 h1{
+#slide_2 h1 {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -182,12 +194,12 @@ header .s_1 {
 }
 
 #slide_2 button {
-    border: 2px solid #01205B;
-    background: none;
-    width: 280px;
-    display: block;
-    color: #01205B	;
-    padding: 5px;
+	border: 2px solid #01205B;
+	background: none;
+	width: 280px;
+	display: block;
+	color: #01205B;
+	padding: 5px;
 	transition: transform 0.3s;
 }
 
@@ -198,14 +210,17 @@ header .s_1 {
 
 #slide_3 {
 	background-image: url(imgs/Фон3.png);
-	moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%;
+	moz-background-size: 100%;
+	/* Firefox 3.6+ */
+	-webkit-background-size: 100%;
+	/* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+	/* Opera 9.6+ */
+	background-size: 100%;
 	padding-left: 42px;
 }
 
-#slide_3 h1{
+#slide_3 h1 {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -230,12 +245,12 @@ header .s_1 {
 }
 
 #slide_3 button {
-    border: 2px solid #FFFFFF;
-    background: none;
-    width: 280px;
-    display: block;
-    color: #FFFFFF;
-    padding: 5px;
+	border: 2px solid #FFFFFF;
+	background: none;
+	width: 280px;
+	display: block;
+	color: #FFFFFF;
+	padding: 5px;
 	transition: transform 0.3s;
 }
 
@@ -245,14 +260,17 @@ header .s_1 {
 
 #slide_4 {
 	background-image: url(imgs/Фон4.png);
-	moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%;
+	moz-background-size: 100%;
+	/* Firefox 3.6+ */
+	-webkit-background-size: 100%;
+	/* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+	/* Opera 9.6+ */
+	background-size: 100%;
 	padding-left: 42px;
 }
 
-#slide_4 h1{
+#slide_4 h1 {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -277,12 +295,12 @@ header .s_1 {
 }
 
 #slide_4 button {
-    border: 2px solid #FFFFFF;
-    background: none;
-    width: 280px;
-    display: block;
-    color: #FFFFFF;
-    padding: 5px;
+	border: 2px solid #FFFFFF;
+	background: none;
+	width: 280px;
+	display: block;
+	color: #FFFFFF;
+	padding: 5px;
 	transition: transform 0.3s;
 }
 
@@ -292,44 +310,43 @@ header .s_1 {
 
 .hr_1 {
 	border: none;
-    background: #E8E8E8;
-    height: 3px;
+	background: #E8E8E8;
+	height: 3px;
 	margin-left: 30px;
 	margin-right: 30px;
 }
+
 .advertising_spaces {
 	display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
 	row-gap: 18px;
 }
 
-.advertising_spaces img {
+.advertising_spaces img {}
 
-}
-
-.popular_products h1{
-    margin-top: 57px;
+.popular_products h1 {
+	margin-top: 57px;
 }
 
 .popular_products .s_1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    row-gap: 46px;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+	flex-wrap: wrap;
+	row-gap: 46px;
 }
 
 .popular_products .card {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	width: 252px;
 }
 
-.popular_products .card > * {
+.popular_products .card>* {
 	text-align: center;
 }
 
@@ -350,18 +367,18 @@ header .s_1 {
 
 .popular_products .card .rebate {
 	font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 30px;
-    text-align: center;
-    letter-spacing: 0.5px;
-    color: #AD3B3B;
-    border: 1px solid #11175E;
-    border-radius: 8px;
-    padding: 3px;
-    padding-left: 7px;
-    padding-right: 7px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #AD3B3B;
+	border: 1px solid #11175E;
+	border-radius: 8px;
+	padding: 3px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 .popular_products .card .full_prize {
@@ -378,46 +395,46 @@ header .s_1 {
 
 
 .popular_products .card .prize {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 30px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #000000;
-    margin-top: -3px;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-top: -3px;
 }
 
 .popular_products .card button {
-    padding: 5px;
+	padding: 5px;
 	margin-top: 7px;
 }
 
 #catalog_products .s_1 {
 	display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    row-gap: 46px;
-    column-gap: 20px;
+	justify-content: center;
+	margin-top: 50px;
+	flex-wrap: wrap;
+	row-gap: 46px;
+	column-gap: 20px;
 }
 
 .base_button_1 {
-    background: #11175E;
-    border: 1px solid #11175E;
-    box-shadow: 0px 1px 0px rgb(255 255 255 / 20%);
-    border-radius: 0px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+	background: #11175E;
+	border: 1px solid #11175E;
+	box-shadow: 0px 1px 0px rgb(255 255 255 / 20%);
+	border-radius: 0px;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
 	transition: background-color, color 0.3s;
 }
 
@@ -427,17 +444,17 @@ header .s_1 {
 }
 
 .title_1 {
-	text-transform:uppercase;
+	text-transform: uppercase;
 	width: 100%;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #000000;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #000000;
 }
 
 #about_us {
@@ -465,8 +482,8 @@ header .s_1 {
 }
 
 #about_us .s_2 span {
-    max-width: 548px;
-    display: block;
+	max-width: 548px;
+	display: block;
 	font-family: 'Nunito';
 	font-style: normal;
 	font-weight: 400;
@@ -485,9 +502,10 @@ header .s_1 {
 	position: absolute;
 	bottom: 0;
 }
+
 .article .s_1 {
 	display: flex;
-    justify-content: space-evenly;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 	row-gap: 50px;
 }
@@ -501,49 +519,50 @@ header .s_1 {
 	margin-bottom: 26px;
 }
 
-.article .card{
+.article .card {
 	max-width: 427px;
 	height: 478px;
-    text-align: center;
-    position: relative;
+	text-align: center;
+	position: relative;
 }
+
 .article .card img {
 	width: 427px;
-    height: 351px;
-    display: flex;
-    flex-direction: column;
+	height: 351px;
+	display: flex;
+	flex-direction: column;
 }
 
 .article .card span {
 	font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.5px;
-    color: #000000;
-    text-align: center;
-    width: 100%;
-    display: block;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #000000;
+	text-align: center;
+	width: 100%;
+	display: block;
 	margin-top: 5px;
 }
 
 .article .card button {
 	position: absolute;
-    width: 210px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 434px;
+	width: 210px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 434px;
 	padding-top: 6px;
-    padding-bottom: 6px;
+	padding-bottom: 6px;
 }
 
 #page-article .article .card {
 	max-width: 366px;
-    height: 425px;
+	height: 425px;
 	text-align: center;
 	position: relative;
 }
@@ -576,6 +595,7 @@ header .s_1 {
 
 #s_img #detal_img {
 	margin-left: 19px;
+	width: 100%;
 }
 
 #catalog_with_prices button {
@@ -620,19 +640,19 @@ header .s_1 {
 }
 
 #catalog_with_prices {
-    max-width: 1324px;
-    min-width: 489.067px;
-    height: 209px;
-    background: #FFFFFF;
-    border: 4px solid #11175E;
-    border-radius: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 95px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    margin-bottom: 45px;
+	max-width: 1324px;
+	min-width: 489.067px;
+	height: 209px;
+	background: #FFFFFF;
+	border: 4px solid #11175E;
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 95px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	margin-bottom: 45px;
 }
 
 .podbyga {
@@ -685,7 +705,7 @@ header .s_1 {
 	color: #000000;
 }
 
-.accordion{
+.accordion {
 	display: flex;
 	width: 705px;
 	justify-content: space-between;
@@ -696,7 +716,7 @@ header .s_1 {
 	margin-bottom: 19px;
 }
 
-.accordion span{
+.accordion span {
 	font-family: 'Nunito';
 	font-style: normal;
 	font-weight: 400;
@@ -711,7 +731,8 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
 	/* display: none; <- Crashes Chrome on hover */
 	-webkit-appearance: none;
-	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	margin: 0;
+	/* <-- Apparently some margin are still there even though it's hidden */
 }
 
 #s_form #s_input input {
@@ -803,9 +824,14 @@ input::-webkit-inner-spin-button {
 	display: flex;
 }
 
+#s_imgs_features {
+	width: 100%;
+}
+
 #s_form {
 	margin-left: 65px;
 }
+
 #s_form .name {
 	font-family: 'Nunito';
 	font-style: normal;
@@ -856,9 +882,14 @@ input::-webkit-inner-spin-button {
 	margin-top: 48px;
 }
 
-footer > .flex{
+footer {
+	background: #E6E7E8;
+	padding-top: 8px;
+}
+
+footer>.flex {
 	display: flex;
-	gap:20px;
+	gap: 20px;
 }
 
 .base_text_1 {
@@ -874,7 +905,7 @@ footer > .flex{
 	color: #333333;
 }
 
-footer > .flex > div {
+footer>.flex>div {
 	flex-grow: 1;
 }
 
@@ -883,7 +914,7 @@ footer .gillette_wholesale {
 }
 
 footer .catalog {
-    max-width: 640px;
+	max-width: 640px;
 }
 
 footer .shops_and_suppliers {
@@ -902,7 +933,7 @@ footer li {
 	margin-bottom: 5px;
 }
 
-footer .catalog li:first-child	{
+footer .catalog li:first-child {
 	margin-bottom: 11px;
 }
 
@@ -924,14 +955,14 @@ footer .catalog .catalog_list ul {
 
 footer .catalog .s_2 {
 	display: flex;
-    flex-wrap: wrap;
-    gap: 17px;
+	flex-wrap: wrap;
+	gap: 17px;
 	margin-top: 54px;
 }
 
-footer .gillette_wholesale .s_1{
+footer .gillette_wholesale .s_1 {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 footer .gillette_wholesale .s_1 img {
@@ -947,11 +978,12 @@ footer .gillette_wholesale .s_1 span {
 	/* or 120% */
 	color: #333333;
 }
+
 footer .gillette_wholesale .s_1 button {
 	width: 181px;
-    padding: 6px 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
+	padding: 6px 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 
@@ -965,7 +997,7 @@ footer .gillette_wholesale .s_1 .phone {
 
 
 	color: #000000;
-    margin-top: 79px;
+	margin-top: 79px;
 }
 
 footer .shops_and_suppliers .s_2 {
@@ -975,7 +1007,7 @@ footer .shops_and_suppliers .s_2 {
 	margin-top: 38px;
 }
 
-footer .shops_and_suppliers .s_2  h1 {
+footer .shops_and_suppliers .s_2 h1 {
 	font-family: 'Nunito';
 	font-style: normal;
 	font-weight: 400;
@@ -999,6 +1031,7 @@ footer .shops_and_suppliers .s_2 span {
 	color: #333333;
 	margin-bottom: 13px;
 }
+
 footer .shops_and_suppliers input {
 	padding: 8px;
 	margin-bottom: 11px;
@@ -1012,24 +1045,24 @@ footer .shops_and_suppliers button {
 
 footer .my_addres {
 	display: block;
-    text-align: center;
-    background: #11175E;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 7px;
-    margin-top: 12px;
+	text-align: center;
+	background: #11175E;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 7px;
+	margin-top: 12px;
 }
 
 #long_text {
 	padding-top: 28px;
 	padding-left: 105px;
 	padding-right: 104px;
-    margin-bottom: 45px;
+	margin-bottom: 45px;
 }
 
 #long_text .title_1 {
@@ -1049,6 +1082,7 @@ footer .my_addres {
 
 	color: #000000;
 }
+
 #long_text span b {
 	font-weight: bold;
 }
@@ -1083,6 +1117,44 @@ footer .my_addres {
 		padding-right: 20px;
 	}
 
+	#s_img {
+		flex-direction: column-reverse;
+	}
+
+	#s_img .s_1 {
+		flex-direction: row;
+	}
+
+	#s_img #detal_img {
+		width: 90%;
+	}
+
+	#s_form {
+		margin-left: 16px;
+		margin-right: 16px;
+		margin-top: 64px;
+	}
+
+	#s_form #required_quantity {
+		margin-top: 9px;
+	}
+
+	#s_form #s_input {
+		left: 0;
+	}
+
+	#s_form #s_input input {
+		flex-grow: 1;
+	}
+
+	/* .podbyga {
+		margin-left: 16px;
+	} */
+
+	#detal_cart {
+		flex-direction: column;
+	}
+
 	#about_us .s_2 span {
 		margin-left: 8px;
 		margin-right: 8px;
@@ -1098,23 +1170,24 @@ footer .my_addres {
 	footer .flex {
 		flex-wrap: wrap;
 	}
-	footer .flex > div {
+
+	footer .flex>div {
 		margin-right: 20px;
 		margin-left: 20px;
 	}
 
-	.article .card{
+	.article .card {
 		height: auto;
 		margin-left: 8px;
 		margin-right: 8px;
 	}
 
-	.article .card img{
+	.article .card img {
 		width: 100%;
 		height: auto;
 	}
 
-	.article .card button{
+	.article .card button {
 		position: relative;
 		top: 10px;
 	}
